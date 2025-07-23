@@ -6,10 +6,10 @@ export default function HeroSection() {
       <section className="bg-blue-500 text-white flex justify-center items-center h-screen">
         <div className="container mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold">Powerfull Innovation</h1>
-          <p className="text-xl">Helping Your Business</p>
-          <div className="space-x-4 my-10">
-            <Link href="/contact" className="bg-black hover:text px-6 py-3 rounded-lg font-medium inline-block">
-              Start Product Our
+          <p className="py-3 text-2xl">Helping Your Business To Growing Fastest Without Problem</p>
+          <div className="space-x-4 my-5">
+            <Link href="/" className="bg-black hover:text px-6 py-3 rounded-lg font-medium inline-block">
+              Who Am I ?
             </Link>
           </div>
         </div>
@@ -34,9 +34,9 @@ export default function HeroSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                   </svg>
                 </div>
-                <h4 className="text-xl font-bold text-gray-800 mb-3">IT Service</h4>
+                <h4 className="text-xl font-bold text-gray-800 mb-3">IT Services</h4>
                 <p className="text-gray-600 mb-6">Comprehensive IT solutions tailored to your business needs.</p>
-                <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button>
+                {/* <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button> */}
               </div>
             </div>
 
@@ -50,7 +50,7 @@ export default function HeroSection() {
                 </div>
                 <h4 className="text-xl font-bold text-gray-800 mb-3">Web Development</h4>
                 <p className="text-gray-600 mb-6">Modern, responsive websites that drive results.</p>
-                <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button>
+                {/* <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button> */}
               </div>
             </div>
 
@@ -62,9 +62,9 @@ export default function HeroSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
-                <h4 className="text-xl font-bold text-gray-800 mb-3">Midas System</h4>
+                <h4 className="text-xl font-bold text-gray-800 mb-3">Structure Operational</h4>
                 <p className="text-gray-600 mb-6">Our proprietary solutions for business transformation.</p>
-                <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button>
+                {/* <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button> */}
               </div>
             </div>
 
@@ -83,24 +83,9 @@ export default function HeroSection() {
                 </div>
                 <h4 className="text-xl font-bold text-gray-800 mb-3">Digital Agency</h4>
                 <p className="text-gray-600 mb-6">Full-service digital marketing and strategy.</p>
-                <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button>
+                {/* <button className="text-blue-500 font-medium hover:text-blue-700 transition-colors">Learn more →</button> */}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="h-screen">
-        <div className="container mx-auto flex justify-center items-center py-20">
-          <div>
-            <h2 className="text-3xl font-bold mb-6">Why Choose Us?</h2>
-            <p className="text-lg mb-4">We are committed to delivering innovative solutions that drive success for your business. Our team of experts is dedicated to providing top-notch services tailored to your needs.</p>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Expert Team</li>
-              <li>Customized Solutions</li>
-              <li>24/7 Support</li>
-              <li>Proven Track Record</li>
-            </ul>
           </div>
         </div>
       </section>
