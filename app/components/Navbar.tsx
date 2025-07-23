@@ -13,16 +13,16 @@ export default function Navbar() {
           </div>
           <div className="flex gap-5 justify-center items-center">
             <Link href={'/product'} className="text-white hover:text-gray-300">
+              Business Support
+            </Link>
+            <Link href={'/product'} className="text-white hover:text-gray-300">
               Product
             </Link>
-            <Link href={'/about'} className="text-white hover:text-gray-300">
-              About
-            </Link>
             <Link href={'/services'} className="text-white hover:text-gray-300">
-              Services
+              Pricing
             </Link>
             <Link href={'/blog'} className="text-white hover:text-gray-300">
-              Blog
+              What New
             </Link>
             <button className="border-2 border-white hover:bg-white hover:text-black text-white text-sm py-2 px-3 rounded-full transition-colors">
               <Link href={'/'}>Contact Us</Link>
